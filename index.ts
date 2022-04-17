@@ -1,4 +1,3 @@
-// https://vitejs.dev/guide/static-deploy.html#github-pages
 const errors: {[key:string]: string | boolean | number | null}[] = [
     {"materialWeight1": "is required"},
     {"materialWeight2": "not numeric"},

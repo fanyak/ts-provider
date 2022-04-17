@@ -11,5 +11,6 @@ export default defineConfig({
     // so that it can appear in the dependency graph and trigger hot reload.
     optimizeDeps: {
       // exclude: ['your-package-name']
-    }
+    },
+   base: '/ts-provider/', //  https://fanyak.github.io/ts-provider/
   })
