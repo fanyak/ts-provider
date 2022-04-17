@@ -1,0 +1,25 @@
+{
+  "name": "ts-provider",
+  "version": "1.0.0",
+  "description": "ts types",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "vite --config ./vite.config.js",
+    "build-ts": "npx tsc index.ts /////////// THIS IS USED FOR MANUAL TRANSPILE WITH TYPESCRIPT",
+    "build": "vite build --watch  --base=./",
+    "serve": "vite preview --port 4173"
+  },
+  "keywords": [
+    "ts",
+    "types"
+  ],
+  "author": "Fani Akritidou",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.6.3"
+  },
+  "dependencies": {
+    "vite": "^2.9.5"
+  }
+}

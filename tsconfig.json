@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+      "isolatedModules": true,
+      "noImplicitAny": true,
+      "strictNullChecks": true,
+      "useDefineForClassFields": true,
+      "target": "ES6"
+    },
+    "files": [
+      "index.ts",     
+    ]
+  }
+  
