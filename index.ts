@@ -6,15 +6,16 @@ const errors: {[key:string]: string | boolean | number | null}[] = [
     {"galvanicTreatment": true}
 ];
 
-window.addEventListener("load",(evt) => {
-    console.log(evt);
+window.addEventListener("load", (evt) => {
     const btn: HTMLElement = document.createElement('button');
     const textNode = document.createTextNode('generate');
     btn.appendChild(textNode);
     btn.onclick = (e) => {
-        console.log(JSON.stringify(errors))
+        console.log(JSON.stringify(errors));
     }
     document.body.insertBefore(btn, null);
-})
+});
+
+
 
 export {}

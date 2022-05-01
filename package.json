@@ -4,7 +4,7 @@
   "description": "ts types",
   "main": "index.js",
   "scripts": {
-    "test": "test",
+    "test": "jasmine",
     "start": "vite --config ./vite.config.js",
     "build-ts": "npx tsc index.ts /////////// THIS IS USED FOR MANUAL TRANSPILE WITH TYPESCRIPT",
     "build": "vite build --watch  --base=./",
@@ -17,6 +17,7 @@
   "author": "Fani Akritidou",
   "license": "ISC",
   "devDependencies": {
+    "jasmine": "^4.1.0",
     "typescript": "^4.6.3"
   },
   "dependencies": {
